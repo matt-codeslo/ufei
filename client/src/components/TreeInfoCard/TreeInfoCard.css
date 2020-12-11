@@ -1,0 +1,9 @@
+.tree-info-card{
+    margin:5px;
+    border:none;
+}
+
+.tree-info-card-text{
+    display:block;
+    padding-bottom:1.5rem;
+}

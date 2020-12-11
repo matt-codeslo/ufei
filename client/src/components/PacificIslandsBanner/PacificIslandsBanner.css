@@ -1,0 +1,44 @@
+  .pacific-islands-banner-search-container{
+    top:82px;
+    left:10px;
+    position: relative;
+    z-index: 1000;
+  }
+  
+  .pacific-islands-banner-jumbotron{
+    margin-top:-50px;
+    position: relative;
+    z-index: 1000;
+    top:10px;
+  }
+  
+  .pacific-islands-banner-jumbo-h1 {
+    font-size: 4rem;
+  
+  }
+  
+  .pacific-islands-banner-container {
+    height: 366px;
+    position:relative;
+    z-index: 1000;
+    left:124px;
+    overflow:visible !important;
+  }
+  
+  .pacific-islands-banner-image-container {
+    overflow: hidden;
+    background: url("/images/home_palm.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position:relative;
+    left:-134px;
+  }
+
+  .pacific-islands-banner-title{
+    display:block;
+  }
+
+  .pacific-islands-jumbotron-container{
+    position:relative;
+    z-index:1000;
+  }

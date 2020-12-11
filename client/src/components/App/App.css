@@ -1,0 +1,186 @@
+/* this file is for css styles that need to apply across the entire app */
+.app-container{
+  width:100%;
+}
+
+.app-container > .container{
+  width:100%;
+}
+
+h1, .category-label,.label-bold{
+  font-family:'urbane',sans-serif;
+  font-weight:700;
+  font-style:normal;
+}
+
+p{
+  font-family:'open-sans';
+}
+
+.label-demibold{
+  font-family:'urbane',sans-serif;
+  font-weight:600;
+  font-style:normal;
+}
+
+
+.form-label, .featured-tree-label, .label-medium{
+  font-family: "urbane",sans-serif;
+  font-weight:500;
+  font-style:normal;
+}
+
+.less-line-spacing{
+  line-height: .8;
+}
+
+.text-lg {
+  font-size: 1.5rem;
+}
+
+.ul-grid{
+  text-align:left;
+}
+
+.ul-grid-centered{
+  text-align:center;
+}
+
+.ul-grid li, .ul-grid-centered li{
+  display:inline-block;
+  text-decoration: none;
+}
+
+.ul-grid-flex{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+}
+
+.container-fluid {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.form-check input{
+  position:absolute;
+  opacity:0;
+  height: 20px;
+  width: 20px;
+  z-index:2;
+  border-radius:5px;
+}
+
+.form-check .overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 20px;
+  width: 20px;
+  background-color: transparent;
+  border-radius:5px;
+  border: 2px solid #457537;
+  /* transform: rotate(-90deg); */
+  transition: all 0.3s;
+  
+}
+
+.form-check .overlay .icon {
+  color: #457537;
+  display: none;
+}
+
+.form-check input:checked ~ .overlay {
+  background-color: #ffffff;
+  border-radius: 5px;
+  transform: rotate(0deg);
+  opacity: 1;
+  border: 2px solid #457537;
+}
+
+.form-check input:checked ~ .overlay .icon {
+  display: block;
+  height:1.25em;
+  width:1.25em;
+  position:relative;
+  top:-2px;
+  left:-2px;
+  border-radius:5px;
+}
+
+/* overwrite rc.slider components */
+.rc-slider-handle{
+  background-color: #457537; 
+  border: 1px solid #457537;
+}
+
+.rc-slider-track{
+  background-color:#457537;
+  height:2px;
+}
+
+.rc-slider-dot{
+  /* background-color: #ffffff; 
+  border: 1px solid #457537; */
+  display:none;
+}
+
+.rc-slider-dot-active{
+  background-color: #457537; 
+  border: 1px solid #457537;
+}
+
+.rc-slider-handle:hover{
+  border:2px solid #C2E812;
+}
+
+.rc-slider-handle:focus{
+  background-color: #457537; 
+  border: 1px solid #457537;
+}
+
+.rc-slider-handle-dragging.rc-slider-handle-dragging.rc-slider-handle-dragging{
+  border-color:#C2E812;
+  box-shadow:0 0 0 5px #C2E812;
+}
+
+
+
+
+@media (min-width: 1400px) {
+  .container,
+  .container-sm,
+  .container-md,
+  .container-lg,
+  .container-xl {
+    width:100%;
+    max-width: 1920px !important;
+  }
+
+  .selectree-navbar {
+    width:100%;
+    max-width: 1920px !important;
+  }
+
+}
+
+@media(min-width:1200px){
+  .container{max-width:100%;}
+}
+
+@media (min-width:992px){
+  .equal-height-columns-2{
+    flex: 0 0 50%;
+    /* max-width: 50%; */
+    position: relative;
+    /* width: 100%; */
+    display: flex;
+  }
+
+  .equal-height-columns-3{
+    flex:0 0 33%;
+    position:relative;
+    display:flex;
+  }
+}
+

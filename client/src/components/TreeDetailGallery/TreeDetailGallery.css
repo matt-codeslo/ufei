@@ -1,0 +1,12 @@
+.tree-detail-gallery-image{
+    display:flex;
+    flex-direction: row;
+}
+
+.tree-detail-gallery-image img{
+    height:100%;
+    max-height:250px;
+    width:auto;
+    vertical-align:middle;
+    margin:5px;
+}

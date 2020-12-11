@@ -1,0 +1,11 @@
+.region-selector-announcement{
+    font-size:1.5rem;
+    font-weight:bold;
+}
+
+.region-selector-button{
+    position:relative;
+    top:-20px;
+    font-weight:bold;
+    max-width:300px;
+}

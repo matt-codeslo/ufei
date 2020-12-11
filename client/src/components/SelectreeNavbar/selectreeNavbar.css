@@ -1,0 +1,16 @@
+
+
+.selectree-navbar-logo {
+  margin-top: -10px;
+  width: 150px;
+}
+
+.selectree-navbar {
+  padding-bottom: 3rem;
+  font-family:"Arial Bold",Arial, Helvetica, sans-serif
+}
+@media only screen and (max-width: 576px) {
+  .selectree-navbar-logo {
+    margin-top: -5px;
+  }
+}

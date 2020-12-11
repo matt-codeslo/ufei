@@ -1,0 +1,63 @@
+.quicklinks-row {
+  height: 6rem;
+  position:relative;
+  top:24px;
+  z-index:0;
+}
+
+.btn-circle-sm {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  color: white;
+  background-color: gray;
+}
+
+.btn-circle-md {
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+  color: white;
+  background-color: gray;
+}
+
+.btn-circle-lg {
+  width: 75px;
+  height: 75px;
+  border-radius: 75px;
+  color: white;
+  background-color: gray;
+}
+
+.btn-icon {
+  height: 35px;
+  width: 35px;
+  margin-top: 12px;
+  margin-left: 12px;
+}
+
+.quicklink-text-1 {
+  margin-top: -50px;
+  margin-left: 68px;
+  font-family:'urbane',sans-serif;
+  font-weight: 500;
+  width: 150px;
+  margin-top: -41px !important;
+}
+
+.quicklink-text-2 {
+  margin-top: -50px;
+  margin-left: 68px;
+  font-family:'urbane',sans-serif;
+  font-weight: 500;
+  width: 100px;
+  margin-top: -41px;
+}
+
+.quicklinks-link:link {
+  text-decoration: none;
+}
+
+.quicklinks-container{
+  margin-top: -33px;
+}

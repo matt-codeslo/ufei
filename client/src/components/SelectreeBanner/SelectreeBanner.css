@@ -1,0 +1,31 @@
+
+.selectree-banner-search-container{
+  position:relative;
+  top:82px;
+  left:10px;
+}
+
+.selectree-banner-jumbotron{
+  overflow-x:hidden;
+}
+
+.selectree-banner-jumbo-h1 {
+  font-size: 4rem;
+
+}
+
+.selectree-banner-container {
+  height: 400px;
+  overflow: hidden;
+  position:relative;
+  left:124px;
+}
+
+.selectree-banner-image-container {
+  overflow: hidden;
+  background: url("/images/oak_leaf2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position:relative;
+  left:35px;
+}

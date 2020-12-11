@@ -1,0 +1,24 @@
+.featured-quote-container{
+    padding:4rem 0 4rem 0;
+}
+
+.featured-quote-quotation{
+    position:relative;
+    top:-51px;
+}
+
+.featured-quote-quote-icon{
+    font-size:7rem;
+    z-index:-1;
+    position:relative;
+    left:-70px;
+}
+
+
+
+.featured-quote-citation{
+    position:relative;
+    top:-35px;
+    font-size:1.25rem;
+    /* left:200px; */
+}

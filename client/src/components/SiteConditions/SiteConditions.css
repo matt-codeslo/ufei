@@ -1,0 +1,11 @@
+.site-conditions-check-list{
+    text-align:left;
+}
+
+
+.site-conditions-check-list li{
+    display:inline-flex;
+    text-decoration:none;
+    
+}
+

@@ -1,0 +1,19 @@
+.result-gallery-card-container{
+    display:inline-block;
+}
+
+.result-gallery-pagination{
+    background-color:white;
+    display:inline-flex;
+}
+
+.result-gallery-pagination .page-item .page-link{
+    border:none;
+    color:#2D2D2D;
+}
+
+.result-gallery-pagination .page-item.active .page-link{
+    border:none;
+    color:white;
+}
+

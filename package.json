@@ -1,0 +1,48 @@
+{
+  "name": "ufei",
+  "version": "0.0.1",
+  "description": "Urban Forest Ecosystems Institute",
+  "main": "index.js",
+  "nodemonConfig": {
+    "ignore": [
+      "client/public/images",
+      "node_modules"
+    ]
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev:server": "nodemon --ignore './client/' --exec nodemon index.js --signal SIGTERM",
+    "dev:client": "cd client && yarn start",
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "stop": "node server.stop.js"
+  },
+  "author": "Matt West",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "cache-control": "^2.0.0",
+    "express": "^4.17.1",
+    "kill-port": "^1.6.1",
+    "knex": "^0.21.4",
+    "mysql": "^2.18.1",
+    "normalize.css": "^8.0.1",
+    "rc-slider": "^9.5.1",
+    "react-html-parser": "^2.0.2",
+    "react-icons": "^3.11.0",
+    "react-nouislider": "^2.0.1",
+    "react-router-dom": "^5.2.0",
+    "react-select": "^3.1.0",
+    "react-uuid": "^1.0.2",
+    "reactrangeslider": "^3.0.6",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0",
+    "winston": "^3.3.3",
+    "winston-aws-cloudwatch": "^3.0.0",
+    "winston-cloudwatch": "^2.3.2"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
